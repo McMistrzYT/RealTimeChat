@@ -1,16 +1,18 @@
 {
+  "homepage": "https://mcmistrzyt.github.io/realtimechat/",
   "name": "realtimechat",
   "version": "1.0.0",
   "description": "Real Time Chat by McMistrzYT",
   "main": "server.js",
   "scripts": {
+    "deploy": "gh-pages -d realtimechat",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "McMistrzYT",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.6",
+    "gh-pages": "^3.1.0",
     "socket.io": "^2.3.0"
   }
 }
